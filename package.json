@@ -1,0 +1,31 @@
+{
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"start": "node dist/index.js",
+		"dev": "tsx watch src/main.ts"
+	},
+	"dependencies": {
+		"@google-cloud/vertexai": "^0.4.0",
+		"argon2": "^0.40.1",
+		"drizzle-orm": "^0.29.4",
+		"fastify": "^4.26.1",
+		"fastify-guard": "^2.0.0",
+		"fastify-zod": "^1.4.0",
+		"jsonwebtoken": "^9.0.2",
+		"pg": "^8.11.3",
+		"pino": "^8.19.0",
+		"pino-pretty": "^10.3.1",
+		"zennv": "^0.1.1",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"@types/jsonwebtoken": "^9.0.5",
+		"@types/node": "^20.11.20",
+		"@types/pg": "^8.11.0",
+		"drizzle-kit": "^0.20.14",
+		"ts-node": "^10.9.2",
+		"tsx": "^4.7.1",
+		"typescript": "^5.3.3",
+		"zod-to-json-schema": "^3.22.4"
+	}
+}
